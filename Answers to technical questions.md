@@ -1,3 +1,5 @@
+The site is published at https://tiangey.github.io/finding-restaurant/
+
 1. It took me about half the day to do the assignment. For the feature parts, I would add filter function and sorting function and create a search bar with auto-complete search suggestions. For each search result, a detail page which we can click in for more information about this restaurant would be necessary. When we do the search, since there are so many images and the time for loading is long, we can build some preload components as well. Create unit test using Jest & Enzyme.
 
 2. For the React (JavaScript library), one of the useful features is Hooks. Most of the time, we can use function components instead of class components to avoid using the lifecycle methods. E.g., we can use this to fetch data: useEffect(() => { fetchRestaurants(); }, []);
